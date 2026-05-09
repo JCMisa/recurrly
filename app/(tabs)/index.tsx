@@ -8,7 +8,7 @@ const SafeAreaView = styled(RNSafeAreaView);
 export default function App() {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
-      <Text>Home</Text>
+      <Text className="font-sans-bold">Home</Text>
     </SafeAreaView>
   );
 }
